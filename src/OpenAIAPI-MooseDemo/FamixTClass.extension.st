@@ -1,7 +1,7 @@
-Extension { #name : #FamixStClass }
+Extension { #name : #FamixTClass }
 
 { #category : #'*OpenAIAPI-MooseDemo' }
-FamixStClass >> mooseGPTDemo [
+FamixTClass >> mooseGPTDemo [
 
 	<inspectorPresentationOrder: 150 title: 'MooseGPT'>
 	| api object result question |
