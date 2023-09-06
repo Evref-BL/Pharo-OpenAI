@@ -4,8 +4,8 @@
 
 ```st
 Metacello new
-  githubUser: 'Evref-BL' project: 'Famix-Html' commitish: 'main' path: 'src';
-  baseline: 'FamixHtml';
+  githubUser: 'Evref-BL' project: 'Pharo-OpenAI' commitish: 'main' path: 'src';
+  baseline: 'PharoOpenAIAPI';
   load
 ```
 
