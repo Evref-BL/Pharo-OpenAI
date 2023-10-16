@@ -16,12 +16,15 @@ Class {
 OAApi class >> authorSettingOn: aBuilder [
 
 	<systemsettings>
-	(aBuilder setting: #openAIKey)
-		order: -100000;
-		label: 'OpenAI Key';
-		target: self;
-		default: '';
-		ghostHelp: 'My key'
+	(aBuilder group: #OpenAI)
+		parent: #tools;
+		with: [
+			(aBuilder setting: #openAIKey)
+				order: -100000;
+				label: 'OpenAI Key';
+				target: self;
+				default: '';
+				ghostHelp: 'My key' ]
 ]
 
 { #category : #accessing }
