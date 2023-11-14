@@ -19,7 +19,7 @@ OARequestObject >> addMessage: aOAMessage [
 OARequestObject >> initialize [
 
 	super initialize.
-	self model: 'gpt-3.5-turbo'.
+	self model: 'gpt-3.5-turbo-1106'.
 	self temperature: 0.7.
 	self messages: OrderedCollection new
 ]
